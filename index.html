@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aris Ramadhani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <h1>ArizDev</h1>
+        </div>
+        <button id="toggle">
+            <i class="fa-solid fa-sliders"></i>
+        </button>
+        <nav id="menunav">
+            <div id="close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="text-home">
+            <div id="output"></div>
+            <div id="myname"></div>
+        </div>
+        <div id="home-text"></div>
+        <button><a style="color: white; text-decoration: none;" href="#about">SEE MORE..</a></button>
+           <!-- <div class="home-picture">  
+               <div class="image">
+                   <img src="asset/picture.jpg" alt="">
+               </div>
+           </div>
+           <div class="home-text">
+               <h1>Aris Ramadani</h1>
+           </div> -->
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-contains">
+                <div class="about-image">
+                    <img src="asset/mychild.jpeg" alt="">
+                </div>
+                <div class="about-text">
+                    <p>Halo semuanya! Nama saya Aris Ramadhani. Saya saat ini sedang menempuh pendidikan di Universitas Nahdlatul Ulama Sunan Giri (UNUGIRI) dan berasal dari Bojonegoro.
+                    Saya memiliki minat yang besar dalam pengembangan web dan senang mempelajari cara membangun website yang fungsional dan mudah digunakan. Bagi saya, desain yang menarik dan kode yang rapi adalah kunci untuk menciptakan pengalaman pengguna yang baik. Saat ini saya fokus mengembangkan keterampilan saya melalui berbagai proyek pribadi dan pembelajaran mandiri.
+                    Jika kamu tertarik untuk berkolaborasi atau ingin terhubung, jangan ragu untuk menghubungi saya!</p>
+                </div>
+        </div>
+    </section>
+
+    <section class="skill">
+        <h3>skills</h3>
+        <div class="skill-contains">
+            <div class="skill-icons">
+                <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+                <p>Javascript</p>
+            </div>
+            <div class="skill-icons">
+                <i class="fa-brands fa-html5" style="color: #ff7300;"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill-icons">
+                <i class="fa-brands fa-css3-alt" style="color: #2aa2fe;"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill-icons">
+                <i class="fa-brands fa-react" style="color: #05b3d6;"></i>
+                <p>React</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project">
+        <h2>My Project</h2>
+        <div class="project-contains">
+            <div class="project-img">
+                <img src="asset/lndgpg.jpeg" alt="">
+                <div class="desk-img">
+                    <h4>Landing Page</h4>
+                    <p>Landing page modern yang dirancang untuk perusahaan teknologi.</p>
+                </div>
+            </div>
+            <div class="project-img">
+                <img src="asset/progme.jpeg" alt="">
+                <div class="desk-img">
+                    <h4>Game Topup</h4>
+                    <p>Website topup game dengan tampilan profesional dan user friendly.</p>
+                </div>
+            </div>
+            <div class="project-img">
+                <img src="asset/onlnshp.jpeg" alt="">
+                <div class="desk-img">
+                    <h4>Online Shop</h4>
+                    <p>Website e-comerce sederhana untuk penjualan laptop second berkualitas.</p>
+                </div>
+            </div>
+            <div class="project-img">
+                <img src="asset/fashion.jpeg" alt="">
+                <div class="desk-img">
+                    <h4>Fashion Shop</h4>
+                    <p>Website Fashion online yang di desain simple dan memudahkan pelanggan untuk CO.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="progres">
+        <div class="activities">
+            <h2>Activities</h2>
+            <div class="line"></div>
+        </div>
+        <table id="myTable">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Kegiatan</th>
+                    <th>Waktu</th>
+                    <th>Status</th>
+                    <th>Bukti</th>
+                </tr>
+            </thead>
+            <tbody id="tabelData"></tbody>
+        </table>
+    </section>
+
+        <div id="contact" class="contact">
+        <div class="say-hello">
+            <h2>Let's Connect</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="content">
+            <div class="contact-content">
+                <div class="contact-info-section">
+                    <h2 class="section-title">Contact</h2>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Lokasi</h3>
+                                <p>Kanor City, Kedungprimpen, pheny</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Phone</h3>
+                                <p>+62-851-3803-3973</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>arisshalting@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="social-links" style="margin-top: 2rem;">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="mapku">
+                    <div class="map-container">
+                        <iframe src="https://maps.google.com/maps?q=rt+04+rw+04%2C+peni%2C+kedungprimpen&output=embed" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer style="margin: 10px; text-align: center; color: white;">
+        &copy; 2025 Arizdev. All rights reserved
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
