@@ -36,7 +36,7 @@ document.getElementById("output").textContent = Helloworld
 setTimeout(function() {
     document.getElementById("home-text").textContent = "Developer Since 2025"
 }, 3500)
-    ``
+
 // table from Db
 fetch('get_data.php') //ambil data dari file PHP
     .then(response => response.json()) // ubah hasil response dari PHP jadi JSON
